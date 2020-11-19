@@ -1,15 +1,16 @@
 import os
 
 # 目标文件夹
-dirPath = r"D:\360安全浏览器下载\画板_slices"
+dirPath = r"C:\Users\Administrator\Desktop\aaaa"
 # 需要改文件名的信息，比如    "矩形(1).png"改为 "home_pre.png"
 nameMap = {
-    "矩形(1).png": "home_pre.png",
-    "矩形.png": "home_def.png",
-    "矩形备份 2(1).png": "my_pre.png",
-    "矩形备份 2.png": "my_def.png",
-    "矩形备份(1).png": "analyze_pre.png",
-    "analyze_def2.png": "analyze_def.png"
+
+    "icon_xin.png": "icon_xin12121212.png",
+    "img_bg_1.png": "img_bg_112212.png",
+
+
+
+
 }
 
 
@@ -31,5 +32,6 @@ def get_file_path(root_path):
 
 if __name__ == "__main__":
     # 根目录路径
+
     root_path = dirPath
     get_file_path(root_path)
