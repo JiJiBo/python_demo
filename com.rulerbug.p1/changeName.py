@@ -1,12 +1,13 @@
 import os
 
 # 目标文件夹
-dirPath = r"C:\Users\Administrator\Desktop\aaaa"
+dirPath = r"C:\Users\Administrator\Desktop\金丝猴租赁_slices"
 # 需要改文件名的信息，比如    "矩形(1).png"改为 "home_pre.png"
 nameMap = {
 
-    "icon_xin.png": "icon_xin12121212.png",
-    "img_bg_1.png": "img_bg_112212.png",
+    "btu_mrdz.png": "btu_mrdz12312.png",
+
+
 
 
 
